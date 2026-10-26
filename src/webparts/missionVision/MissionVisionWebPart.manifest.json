@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d80a0e16-94ae-439b-bd39-862dc7cbaf55",
+  "alias": "MissionVisionWebPart",
+  "componentType": "WebPart",
+ 
+  "version": "*",
+  "manifestVersion": 2,
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "MissionVision" },
+    "description": { "default": "MissionVision description" },
+    "officeFabricIconFontName": "GridViewMedium",
+      "properties": {
+        "listName": "",
+        "gridBackground": "#8BC9BA",
+        "gridGap": "1px",
+        "itemAsLink": true,
+        "itemWidth": "195px",
+        "itemBackground": "#323E48",
+        "iconWidth": "80px",
+        "titleFontSize": "17px",
+        "descFontSize": "14px"
+      }
+  }]
+}
